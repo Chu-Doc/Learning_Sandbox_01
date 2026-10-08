@@ -1,0 +1,32 @@
+# Папки кэша и временных файлов Unity (восстанавливаются движком автоматически)
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+
+# Локальный кэш менеджера пакетов (манифест Packages/manifest.json при этом отслеживается)
+/[Pp]ackages/*
+!/[Pp]ackages/manifest.json
+!/[Pp]ackages/packages-lock.json
+
+# Временные файлы компиляторов и сред разработки (VS, Rider, VS Code)
+.vs/
+.idea/
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+
+# Файлы операционных систем
+.DS_Store
+Thumbs.db
+desktop.ini
